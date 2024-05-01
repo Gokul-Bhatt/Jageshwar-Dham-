@@ -3,7 +3,6 @@ import ImageSlide from './ImageSlide'
 import IntroCard from './introCard'
 import Details from './Details'
 import Mainhome from "./mainpuja"
-import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -12,7 +11,6 @@ const Home = () => {
       <IntroCard/>
       <Mainhome/>
       <Details/>
-      <Footer/>
     </div>
   )
 }

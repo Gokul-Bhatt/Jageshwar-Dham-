@@ -11,6 +11,7 @@ import Register from './components/Registration/register.js';
 import Admin from "./components/Layouts/AdminLayout.js";
 import AdminUsers from './components/Layouts/AdminUsers.js';
 import AdminContact from './components/Layouts/AdminContact.js';
+import Footer from "../src/components/Home/Footer";
 
 
 const App = () => {
@@ -30,6 +31,7 @@ const App = () => {
           </Route>
 
         </Routes>
+        <Footer/>
         </BrowserRouter>
 
     </div>

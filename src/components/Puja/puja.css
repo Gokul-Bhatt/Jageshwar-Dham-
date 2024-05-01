@@ -16,10 +16,13 @@
 }
 .mytitle{
     margin: 1rem;
+    color: white;
+    font-weight: 600;
   
 }
 .myprice{
     color: white;
+    font-weight: 600;
     font-size: xx-large;
     margin: 1rem;
 }
@@ -63,12 +66,14 @@
         align-items: center;
         justify-content: center;
         margin-top: 1rem;
+        color: white;
 }
 .main-columns{
    display: flex;
    flex-wrap: wrap;
    margin-top: -3rem;
 }
+
 
 @media screen and (max-width: 431px) { 
     .secc{

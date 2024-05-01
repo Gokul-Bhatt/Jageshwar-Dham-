@@ -9,7 +9,7 @@
 }
 
 .carousel-item-active img{
-    width: 80vw;
+    width: 90vw;
     height: 35vw;
     border-radius: 1rem;
     margin-top: 1.5rem;
@@ -131,7 +131,9 @@
 
 
 /* *********************Footer *********************/
-
+.footer{
+    background-color: black;
+}
 .footerin{
     display: flex;
     justify-content: space-between;
