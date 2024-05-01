@@ -1,0 +1,89 @@
+
+.columns{
+    display: grid;
+    flex-wrap: wrap;
+}
+ 
+.sec{
+    background-color: rgb(246, 127, 0);
+    color: black;
+    overflow: hidden;
+}
+.mythink{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.mytitle{
+    margin: 1rem;
+  
+}
+.myprice{
+    color: white;
+    font-size: xx-large;
+    margin: 1rem;
+}
+.card-content{
+    background-color: black;
+}
+.card-content button{
+    background-color: rgb(9, 172, 9);
+}
+.myimage{
+    height: 10rem;
+    width: 100%;
+
+}
+.mytitlemen{
+    background-color: rgb(237, 183, 36);
+    color: black;
+    padding: 3rem;
+}
+
+@media screen and (max-width: 770px) {
+    .columns{
+        max-width: 20rem;
+    }
+    .section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* main puja css */
+.secc{
+    margin-top: 25rem;   
+    background-color: rgb(209, 143, 68);
+    color: black;
+
+}
+.maintitle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+}
+.main-columns{
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: -3rem;
+}
+
+@media screen and (max-width: 431px) { 
+    .secc{
+        margin-top: 47rem;
+    }
+}
+
+@media screen and (max-width: 330px){
+    .secc{
+        margin-top: 53rem;
+    }
+}
+
+@media screen and (max-width: 250px){
+    .secc{
+        margin-top: 62rem;
+    }
+}

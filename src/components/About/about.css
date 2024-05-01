@@ -1,0 +1,33 @@
+.allabout{
+    background-image: radial-gradient(circle, #d6d638, #d9cd2f, #dbc427, #ddba1f, #dfb119, #e2ad20, #e5aa27, #e8a62d, #eea83b, #f3aa48, #f7ac54, #fbae5f);
+    color: black;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 5vw; */
+    margin-left: 3vw;
+    width: 80%;
+}
+.about h1{
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about h2{
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 3vw;
+}
+.about img{
+    width: 60vw;
+    height: 30vw;
+    margin-top: 3vw;
+}
+.about p{
+    font-size: larger;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 3vw;
+}

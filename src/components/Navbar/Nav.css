@@ -1,0 +1,45 @@
+.navbar{
+    background:rgb(221, 150, 17);
+    height: 6rem;
+   /* width:95vw; */
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 0;
+   
+}
+
+.menubar{
+    display: flex;
+    gap: 2rem; 
+    cursor: pointer;
+    background:rgb(221, 150, 17);
+}
+.menuitem:hover{
+    color: yellow;
+    
+}
+.menuitem{
+    background:rgb(221, 150, 17);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    /* text-decoration: none; */
+}
+.navbar h1{
+    font-size: xx-large;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    background:rgb(221, 150, 17);
+}
+.active{
+    color: yellow;
+}
+::-webkit-scrollbar {
+    display: none;
+}

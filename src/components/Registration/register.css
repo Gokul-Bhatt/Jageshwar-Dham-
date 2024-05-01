@@ -1,0 +1,42 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.bg {
+    position: relative;
+    background-image: url("C:\Users\GOKUL BHATT\OneDrive\Desktop\kewal\src\components\Aasets\WhatsApp Image 2024-04-20 at 11.56.44 AM.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.form input{
+    width: 15rem;
+    padding: .5rem;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: white;
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.register h1{
+    font-size: xx-large;
+    margin: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: rgb(225, 16, 16);
+}
+.btn{
+    background-color: blue;
+    color: white;
+    width: 10rem;
+}
+.btn:hover{
+    background-color: green;
+    color: white;
+}

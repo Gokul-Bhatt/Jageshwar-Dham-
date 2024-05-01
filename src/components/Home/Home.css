@@ -1,0 +1,195 @@
+
+.holehome{
+    background-color: rgb(255, 255, 255);
+}
+.container-my-5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.carousel-item-active img{
+    width: 80vw;
+    height: 35vw;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    
+}
+
+ /* cards css */
+ 
+
+ .mainhome{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+    background-color: rgb(198, 191, 57);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 2rem;
+
+}
+
+ .imagecontainer{
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+ }
+.right img{
+    width: 10rem;
+    border-radius: 5rem;
+    border: 2px solid red;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: auto;
+    margin-top: 1rem;
+}
+.right h1{
+    font-size: larger;
+    font-weight: 600;
+}
+.right p{
+    font-weight: 500;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.left h2{
+    font-size: x-large;
+    font-weight: 600;
+}
+.mantr h1{
+    font-size: large;
+}
+.left p{
+    margin-top: 3rem;
+}
+.left p button{
+    margin-top: 3rem;
+    background-color: blue;
+    color: white;
+}
+
+.left p button:hover{
+    background-color: green;
+}
+ 
+
+
+/* css of details */
+.holeho{
+         display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.details{
+        width: 80vw; 
+        margin-top: 2rem;  
+        color: rgb(0, 0, 0);
+        background-color: rgb(224, 224, 220);
+        align-items: center;
+        justify-content: center;
+}
+.home-third{
+    width: 65rem;
+    height: auto;
+    max-width: 75vw;
+    margin-left: 1rem;
+}
+.home-third h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    margin: 1rem;
+
+}
+.home-third p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: 600;
+}
+.home-third h2{
+    margin-top: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+.home-third h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    margin: 1%;
+}
+
+
+/* *********************Footer *********************/
+
+.footerin{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+.footerleft h1{
+        font-size: x-large;
+        color: white;
+        font-weight: 600;
+        font-family: 'Times New Roman', Times, serif;
+}
+
+.footerleft p{
+        font-size: large;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+}
+.footerlink h1{
+    font-size: x-large;
+    color: white;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footerlink .icon{
+    gap: 1rem;
+    margin-left: 1rem;
+}
+
+@media screen and (max-width: 431px) {
+    .footerin{
+        flex-wrap: wrap;
+    }
+    .footerlink{
+        margin-top: 1rem;
+    }
+    .footerlink h1{
+        margin-bottom: 1rem;
+    }
+}
+
+
+
+
+/* ***************************introcard media ################## */
+
+@media screen and (max-width: 431px ){
+    .imagecontainer{
+                        flex-wrap: wrap;
+    }
+    .right{
+        align-items: center;
+    }
+    .left{
+        margin-top: 2rem;
+        max-width: 20rem;
+        align-items: center;
+    }
+}

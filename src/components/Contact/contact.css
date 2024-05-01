@@ -1,0 +1,43 @@
+ .contact{
+    background: rgb(90, 86, 86);
+} 
+.mid{
+    display: flex;
+    width: 80vw;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10vw;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contactMe{
+    display: flex;
+    flex-direction: column;
+}
+.contactMe h1{
+        font-size: xx-large;
+        color: white;
+        font-weight: 600;
+        font-family: 'Times New Roman', Times, serif;
+}
+.contactMe h3{
+    font-size: x-large;
+    color: white;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 560px) {
+    .mid{
+        flex-wrap: wrap;
+        margin-top: 2rem;
+    }
+    .contactMe{
+        margin-top: 2rem;
+        align-items: center;
+    }
+}
