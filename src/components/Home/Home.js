@@ -12,6 +12,7 @@ const Home = () => {
       <Mainhome/>
       <Details/>
     </div>
+
   )
 }
 
