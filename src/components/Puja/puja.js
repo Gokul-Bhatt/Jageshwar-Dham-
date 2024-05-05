@@ -10,16 +10,14 @@ import image4 from "../Aasets/hometwo/homeT4.jpg"
 const puja = () => {
   
   return (
-    <div className=''>
-      <section className="">
-        <div className="">
-            <p className="">
-"जागेश्वर धाम में ये पूजाएं उपलब्ध हैं, पूजा कराने के लिए बुक करें।"</p>
+    <div className='bg-orange-400'>
+        <div className=" titleM">
+            <p className=" text-3xl items-center justify-center text-black flex font-semibold">
+                    जागेश्वर धाम में ये पूजाएं उपलब्ध हैं, पूजा कराने के लिए बुक करें।</p>
         </div>
-      </section>
       <div className="">
         <section className="section">
-            <div className="columns ">
+            <div className="columns mx-6">
                 <div className="">
                     <PujaCards title="अष्टाध्यायी रुद्री पाठ" price="₹   1100" image={image1}/>
                 </div>
