@@ -19,7 +19,7 @@
  /* cards css */
  
 
- .mainhome{
+ /*.mainhome{
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -32,7 +32,7 @@
 
 }
 
- .imagecontainer{
+  .imagecontainer{
     display: flex;
     color: black;
     align-items: center;
@@ -55,17 +55,17 @@
     font-size: larger;
     font-weight: 600;
 }
-.right p{
+ .right p{
     font-weight: 500;
-}
+} 
 
 .left{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-.left h2{
+} 
+ .left h2{
     font-size: x-large;
     font-weight: 600;
 }
@@ -84,7 +84,7 @@
 .left p button:hover{
     background-color: green;
 }
- 
+  */
 
 
 /* css of details */

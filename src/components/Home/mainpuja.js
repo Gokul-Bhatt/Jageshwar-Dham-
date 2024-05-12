@@ -1,39 +1,40 @@
-import React from 'react'
-import "../Puja/puja.css"
+import React from "react";
+import "../Puja/puja.css";
 // import PujaCards from './cards';
-import MainPujaCard from './Main_pujaCard';
-import image1 from "../Aasets/main_home_img.jpeg"
-import { useNavigate } from 'react-router-dom';
-
+import MainPujaCard from "./Main_pujaCard";
+import image1 from "../Aasets/main_home_img.jpeg";
+import { useNavigate } from "react-router-dom";
 
 const Mainpuja = () => {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
   return (
-    <div className='secc'>
-        <div className="shift-left">
-    {/* mahamritujay jaap, rudraabhisekh, navgragr, kaalshrpdosh  */}
-    <p className='title is-3 maintitle'>Some Most Popular Puja.</p>
-    <div className="container">
+    <div className="bg-orange-400 secc">
+      <div className=" titleM">
+        <p className=" text-3xl items-center justify-center text-black flex font-semibold">
+          जागेश्वर धाम में ये पूजाएं उपलब्ध हैं, पूजा कराने के लिए बुक करें।
+        </p>
+      </div>
+      <div className="">
         <section className="section">
-            <div className="main-columns">
-                <div className="column is-3 pujalist">
-                    <MainPujaCard title="महामृत्युंजय जाप" price="@2100" image={image1}/>
-                </div>
-                <div className="column is-3 pujalist">
-                    <MainPujaCard title="रुद्राभिषेक" price="@1100" image={image1}/>
-                </div>
-                <div className="column is-3 pujalist">
-                    <MainPujaCard title="नवग्रह " price="@1100" image={image1}/>
-                </div>
-                <div className="column is-3 pujalist">
-                    <MainPujaCard title="काल सर्प " price="@2100" image={image1}/>
-                </div>
+          <div className="columns mx-6">
+            <div className="column is-3 pujalist">
+              <MainPujaCard
+                title="महामृत्युंजय जाप"price="@2100"image={image1}/>
             </div>
+            <div className="column is-3 pujalist">
+              <MainPujaCard title="रुद्राभिषेक" price="@1100" image={image1} />
+            </div>
+            <div className="column is-3 pujalist">
+              <MainPujaCard title="नवग्रह " price="@1100" image={image1} />
+            </div>
+            <div className="column is-3 pujalist">
+              <MainPujaCard title="काल सर्प " price="@2100" image={image1} />
+            </div>
+          </div>
         </section>
+      </div>
     </div>
-    </div>
-    </div>
-  )
-}
+  );
+};
 
-export default Mainpuja
+export default Mainpuja;
