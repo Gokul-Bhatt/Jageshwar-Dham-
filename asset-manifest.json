@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Jageshwar-Dham-/static/css/main.d81cc257.css",
-    "main.js": "/Jageshwar-Dham-/static/js/main.d170ed35.js",
+    "main.css": "/Jageshwar-Dham-/static/css/main.34f34681.css",
+    "main.js": "/Jageshwar-Dham-/static/js/main.94aaeaec.js",
     "static/media/WhatsApp Image 2024-04-20 at 11.56.44 AM.jpeg": "/Jageshwar-Dham-/static/media/WhatsApp Image 2024-04-20 at 11.56.44 AM.8e86daccd37baeecf540.jpeg",
     "static/media/img_main.jpg": "/Jageshwar-Dham-/static/media/img_main.564e1655e9ea6f0d4e2f.jpg",
     "static/media/homeT1.jpg": "/Jageshwar-Dham-/static/media/homeT1.886cb55096b7d088c277.jpg",
@@ -15,11 +15,11 @@
     "static/media/homeT4.jpg": "/Jageshwar-Dham-/static/media/homeT4.2c1fc0d06a6b107613f1.jpg",
     "static/media/homeT3.jpg": "/Jageshwar-Dham-/static/media/homeT3.939cd17a8476998d4a3b.jpg",
     "index.html": "/Jageshwar-Dham-/index.html",
-    "main.d81cc257.css.map": "/Jageshwar-Dham-/static/css/main.d81cc257.css.map",
-    "main.d170ed35.js.map": "/Jageshwar-Dham-/static/js/main.d170ed35.js.map"
+    "main.34f34681.css.map": "/Jageshwar-Dham-/static/css/main.34f34681.css.map",
+    "main.94aaeaec.js.map": "/Jageshwar-Dham-/static/js/main.94aaeaec.js.map"
   },
   "entrypoints": [
-    "static/css/main.d81cc257.css",
-    "static/js/main.d170ed35.js"
+    "static/css/main.34f34681.css",
+    "static/js/main.94aaeaec.js"
   ]
 }
