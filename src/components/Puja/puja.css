@@ -73,6 +73,10 @@
    flex-wrap: wrap;
    margin-top: -3rem;
 }
+.mainbg{
+    background-color: rgb(255, 255, 255);
+   
+}
 
 
 @media screen and (max-width: 431px) { 

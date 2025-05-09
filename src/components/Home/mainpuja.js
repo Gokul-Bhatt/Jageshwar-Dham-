@@ -1,5 +1,6 @@
 import React from "react";
 import "../Puja/puja.css";
+import "../Home/Home.css";
 // import PujaCards from './cards';
 import MainPujaCard from "./Main_pujaCard";
 import image1 from "../Aasets/main_home_img.jpeg";
@@ -8,13 +9,13 @@ import { useNavigate } from "react-router-dom";
 const Mainpuja = () => {
   const navigate = useNavigate();
   return (
-    <div className="bg-orange-400 secc">
-      <div className=" titleM">
+    <div className="secc">
+      <div className=" titleM mainbgg">
         <p className=" text-3xl items-center justify-center text-black flex font-semibold">
           जागेश्वर धाम में ये पूजाएं उपलब्ध हैं, पूजा कराने के लिए बुक करें।
         </p>
       </div>
-      <div className="">
+      <div className="mainbgg">
         <section className="section">
           <div className="columns mx-6">
             <div className="column is-3 pujalist">

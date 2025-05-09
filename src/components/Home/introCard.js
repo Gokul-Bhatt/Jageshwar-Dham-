@@ -7,7 +7,7 @@ const IntroCard = () => {
   const navigate = useNavigate();
   return (
     <div className="holehome ">
-    <div className='mainhome overflow-hidden flex flex-col w-4/5 bg-red-300 absolute left-1/2 transform -translate-x-1/2 mt-8'>
+    <div className='mainhome overflow-hidden flex flex-col w-4/5 bg-white-300 absolute left-1/2 transform -translate-x-1/2 mt-8'>
     <div className="imagecontainer flex text-black items-center justify-center font-serif ">
       <div className="right flex flex-col w-80 mt-4">
   <img src={img_main} alt="photo" className='w-40 rounded-full border-2 border-red-500' />
