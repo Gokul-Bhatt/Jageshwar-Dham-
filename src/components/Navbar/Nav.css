@@ -10,8 +10,10 @@
     position: sticky;
     top: 0;
     z-index: 0;
-   
-}
+   border-bottom-left-radius: 3rem;
+   border-bottom-right-radius: 3rem;
+   box-shadow: 0 4px 6px -2px rgb(0, 0, 0);
+   }
 
 .menubar{
     display: flex;
@@ -76,5 +78,9 @@
     }
     .menubar{
         display: none;
+    }
+    .navbar{
+         border-bottom-left-radius: 2rem;
+         border-bottom-right-radius: 2rem;
     }
 }

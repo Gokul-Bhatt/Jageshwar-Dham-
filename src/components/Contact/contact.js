@@ -47,7 +47,7 @@ export const Contact = () => {
     <div className="contact">
       <div className="mid">
       <form onSubmit={handlesubmit} className="form">
-        <div>
+        <div >
           <input
             type="text"
             name="username"
@@ -61,7 +61,7 @@ export const Contact = () => {
         </div>
         <div>
           <input
-            type="number"
+            type="text"
             name="phone"
             placeholder="Phone"
             id="phone"
@@ -75,8 +75,8 @@ export const Contact = () => {
           name="message"
           placeholder="Message"
           id="text"
-          cols="36"
-          rows="8"
+          cols="26"
+          rows="4"
           className="inputt"
           value={contact.message}
             onChange={handleInput}
@@ -84,11 +84,11 @@ export const Contact = () => {
           Message
         </textarea>
         <br />
-        <button type="submit" className="btn button">
+        <button type="submit" className="but">
           Send
         </button>
       </form>
-
+        </div>
       <div className="contactMe">
         <h1>पंडित केवल भट्ट </h1>
         <h3> Phone: 84750320230, 9456539399</h3>
@@ -96,7 +96,7 @@ export const Contact = () => {
         <h3>Instagram: kewal_bhatt_11</h3>
       </div>
       </div>
-    </div>
+    
   );
 };
 

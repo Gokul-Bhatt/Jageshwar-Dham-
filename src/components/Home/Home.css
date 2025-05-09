@@ -1,5 +1,11 @@
 
 .holehome{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* position: absolute; */
+    /* position: relative; */
+    /* flex-direction: column; */
     background-color: rgb(255, 255, 255);
 }
 .container-my-5{

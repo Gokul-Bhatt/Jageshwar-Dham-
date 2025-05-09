@@ -1,4 +1,4 @@
- .contact{
+ /* .contact{
     background: rgb(90, 86, 86);
 } 
 .mid{
@@ -39,5 +39,101 @@
     .contactMe{
         margin-top: 2rem;
         align-items: center;
+    }
+} */
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #D3E5FC;
+}
+.mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+}
+.contactMe{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+}
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.inputt{
+    border: none;
+    outline: none; 
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    background-color: #C6CCFC;
+    color: black;
+}
+#username{
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    background-color: #E6E8FD;
+}
+#phone{
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    background-color: #DBE0FE;
+}
+.inputt::placeholder{
+    color: black;
+}
+#username::placeholder{
+    color: black;
+}
+#phone::placeholder{
+    color: black;
+}
+.but{
+    width: 10rem;
+    background-color: green;
+    cursor: pointer;
+    padding: .3rem;
+    border-radius: 1rem;
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
+.but:hover{
+    background-color: hsl(130, 100%, 20%);
+}
+.contactMe{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    border-radius: 2rem;
+}
+.contactMe h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+}
+.contactMe h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+}
+@media screen and (max-width: 800px) {
+    .contact{
+        flex-wrap: wrap;
+    }
+    .contactMe{
+        max-width: 20rem;
     }
 }
